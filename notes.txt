@@ -1,0 +1,21 @@
+var host kr skta hain 
+
+
+console.log(a)
+var a= 10 // this will sit on top it will not throw error 
+
+but value will not be alloted 
+answer undefined
+
+
+let and const are block level
+
+
+git --version 
+
+git status 
+
+git init           
+
+                             -----     .gitignore folder mein   /foldername
+
