@@ -11,35 +11,36 @@ answer undefined
 let and const are block level
 
 
-git --version 
 
-git status 
+git --version
+- Checks the Git version installed on your system.
 
-git init           
+git status
+- Displays the current status of files in your repository.
 
-                             -----     .gitignore folder mein   /foldername
+git init
+- Initializes a new Git repository in the current directory.
 
-git add .  // saari files  
+// Create a .gitignore file to specify files or directories Git should ignore
+- Create a .gitignore file and list folder names inside it.
 
-git commit -m "you can  give your message"
+git add .
+- Adds all modified and new files to the staging area for the next commit.
 
-// you can even add customized file
+git commit -m "your commit message"
+- Records the changes made to the files in the repository with a descriptive message.
 
-git add file.exetnsion
+// You can also add specific files
+git add file.extension
 
-git commit -m "whenever you add you have to commit"
+// Whenever you add files, remember to commit them
+git commit -m "your commit message"
 
+// Connect your local repository to a remote repository on GitHub
+git remote add origin https://github.com/username/repository.git
 
-// for connecting git with github
-git remote add origin https://github.com/lakshay123-spec/react-leaarninggit.git
-
-// switching to branch main 
+// Switch to the main branch (assuming it exists; in Git, it's typically 'main' or 'master')
 git checkout -b main
 
-// for pushing code into git hub
+// Push the code in your local repository to GitHub
 git push --set-upstream origin main
-
-
-
-
-
