@@ -19,3 +19,7 @@ git init
 
                              -----     .gitignore folder mein   /foldername
 
+git add . 
+
+
+git commit -m "you can  give your message"
