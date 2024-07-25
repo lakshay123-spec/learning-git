@@ -27,6 +27,9 @@ git commit -m "you can  give your message"
 
 git add file.exetnsion
 
+git commit -m "whenever you add you have to commit"
+
+
 // for connecting git with github
 git remote add origin https://github.com/lakshay123-spec/react-leaarninggit.git
 
