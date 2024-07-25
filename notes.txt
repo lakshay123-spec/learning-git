@@ -19,7 +19,24 @@ git init
 
                              -----     .gitignore folder mein   /foldername
 
-git add . 
-
+git add .  // saari files  
 
 git commit -m "you can  give your message"
+
+// you can even add customized file
+
+git add file.exetnsion
+
+// for connecting git with github
+git remote add origin https://github.com/lakshay123-spec/react-leaarninggit.git
+
+// switching to branch main 
+git checkout -b main
+
+// for pushing code into git hub
+git push --set-upstream origin main
+
+
+
+
+
